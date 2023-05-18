@@ -482,7 +482,11 @@ and
     --tab-attention-icon-color: currentColor !important;
     background-position: var(--tab-attention-indicator-position) !important;
 }
-
+       
+#main-window {
+	background-color: transparent !important;
+	-moz-appearance: -moz-win-glass !important;
+}
 /* ---------------------------------------- Toolbar Transparency ---------------------------------------- */
 
 @supports -moz-bool-pref("userChrome.Toolbar.Transparency.Low.Enabled")
